@@ -11,8 +11,19 @@
     Hi there!!
   </div>
 
+ <!-- Added react through CDN links -->
   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<script>
+
+  const heading = React.createElement("h1",{},"This is a h1 heading through Recat.createElement()")
+  const root = ReactDOM.createRoot(document.getElementById('root'))
+
+  root.render(heading);
+
+  
+</script>
   
 </body>
 </html>
